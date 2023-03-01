@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         tvText = findViewById(R.id.textView);
-        btScan  = findViewById(R.id.button);
+        btScan = findViewById(R.id.button);
 
         btScan.setOnClickListener(new View.OnClickListener() {
             @Override
