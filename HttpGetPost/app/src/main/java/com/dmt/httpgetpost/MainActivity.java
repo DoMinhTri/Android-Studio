@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
             try {
                 URL myUrl = new URL(params[0]);
                 HttpURLConnection connection =(HttpURLConnection) myUrl.openConnection();
-                connection.setRequestMethod("GET");
+                connection.setRequestMethod("POST");
                 connection.setReadTimeout(15000);
                 connection.setConnectTimeout(15000);
                 connection.connect();
