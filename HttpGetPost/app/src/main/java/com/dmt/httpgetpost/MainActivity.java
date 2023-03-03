@@ -15,7 +15,7 @@ import java.net.URL;
 
 public class MainActivity extends AppCompatActivity {
 
-    String sUrl = "https://script.google.com/macros/s/AKfycbyoGS_o_RedSHBz_YnGe5ZE8CNx164RCbY6zQdJgXAd5wovMS_OZ4BpK0OsmOR1iLiT/exec";
+    String sUrl = "https://drrobot.net/test.php?id=ABCD";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
